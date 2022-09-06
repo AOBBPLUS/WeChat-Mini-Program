@@ -1,13 +1,5 @@
 {
-	"pages": [
- //    {
-	// 	"path": "pages/index/index",
-	// 	"style": {
-	// 		"navigationBarTitleText": "uni-ui基础项目"
-	// 	}
-	// }    
-  //,
-  {
+	"pages": [{
             "path" : "pages/home/home",
             "style" : {}
         }
@@ -24,6 +16,17 @@
             "style" : {}
         }
     ],
+    "subPackages":[{
+      "root":"subpkg",
+      "pages":[{
+        "path": "goods_detail/goods_detail",
+        "style": {}
+      }    ,{
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+            ]
+    }],
 	  "globalStyle": {
 	    "navigationBarTextStyle": "white",
 	    "navigationBarTitleText": "测试商店",

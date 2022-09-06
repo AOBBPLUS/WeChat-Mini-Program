@@ -1,0 +1,23 @@
+{
+  "name": "uni-shop-02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AOBBPLUS/WeChat-Mini-Program.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AOBBPLUS/WeChat-Mini-Program/issues"
+  },
+  "homepage": "https://github.com/AOBBPLUS/WeChat-Mini-Program#readme"
+}
