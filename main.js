@@ -6,7 +6,7 @@ import { $http } from '@escook/request-miniprogram'
 
 uni.$http = $http
 
-// 请求的根路径
+// 请求的根路径,https://api-hmugo-web.itheima.net
 $http.baseUrl = 'http://api-ugo-web.itheima.net'
 
 // 请求拦截器
