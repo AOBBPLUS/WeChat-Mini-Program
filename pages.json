@@ -23,7 +23,11 @@
         "style": {}
       }    ,{
                     "path" : "goods_list/goods_list",
-                    "style" : {}
+                    "style" : {},
+                    //为 subPackages 分包中的 goods_list 页面配置上拉触底的距离
+                    "onReachBottomDistance": 150,
+                    "enablePullDownRefresh": true,
+                    "backgroundColor": "#F8F8F8"
                 }
                 ,{
                     "path" : "search/search",
