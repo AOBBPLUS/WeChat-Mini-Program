@@ -1,7 +1,7 @@
 <template>
 	<view>
     <view class="goods-list">
-      <view v-for="(goods, i) in goodsList" :key="i" @click="gotoDetail(item)">
+      <view v-for="(goods, i) in goodsList" :key="i" @click="gotoDetail(goods)">
         <!-- 为 my-goods 组件动态绑定 goods 属性的值 -->
             <my-goods :goods="goods"></my-goods>
       </view>
@@ -42,7 +42,7 @@
       this.queryObj.cid = options.cid || ''
       // 调用获取商品列表数据的方法
       this.getGoodsList()
-      console.log(this.queryObj)
+      //console.log(this.queryObj)
       
     },
     methods: {
